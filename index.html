@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tk Photography</title>
+        <link href="styles.css" rel="stylesheet" />
+        <!-- Gloria Castorena -->
+    </head>
+
+    <body>
+        <header>
+            <h1>TK Photography</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#top">top</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>About</h2>
+                <br />
+                <p>Hello!</p>
+                <br />
+                <p>
+                    I’m TK and I’m a photographer. I love looking at life
+                    through the lens of my camera. Landscape photography is my
+                    speciality and it’s taken me all over the world.
+                </p>
+            </section>
+            <section>
+                <br />
+                <h2>Gallery</h2>
+
+                <br />
+                <p>
+                    Here are some highlights of my work. The locations and year
+                    are in the caption.
+                </p>
+            </section>
+            <section class="photo-grid">
+                <figure class="card">
+                    <img src="images/Chile.png" alt="sunset on the rocks" />
+                    <figcaption class="caption-bottom caption-white">
+                        Chile, 2001
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img
+                        src="images/Guatemala.png"
+                        alt="Mountain view by lavander"
+                    />
+                    <figcaption class="caption-top caption-white">
+                        Guatemala, 1997
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img
+                        src="images/Hawaii.png"
+                        alt="green mountain and ocean"
+                    />
+                    <figcaption class="caption-bottom caption-white">
+                        Hawaii, 2010
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/Iran.png" alt="sunset by nature" />
+                    <figcaption class="caption-top caption-black">
+                        Iran, 1999
+                    </figcaption>
+                </figure>
+
+                <figure class="card card-tall">
+                    <img src="images/Ireland.png" alt="green nature" />
+                    <figcaption class="caption-top caption-black">
+                        Ireland, 2012
+                    </figcaption>
+                </figure>
+
+                <figure class="card card-tall">
+                    <img src=images/Italy.png alt="lake by the mountains">
+                    <figcaption class="caption-bottom caption-black">
+                        Italy, 2015
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/Moab-Desert.png" alt="view through cave" />
+                    <figcaption class="caption-bottom caption-white">
+                        Moab Desert, 2020
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/Rocky-Mountains.png" alt="Icy rocks" />
+                    <figcaption class="caption-top caption-black">
+                        Rocky Mountains, 2009
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img
+                        src="images/Switzerland.png"
+                        alt="snowy mountain view"
+                    />
+                    <figcaption class="caption-top caption-black">
+                        Switzerland, 2014
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/UK.png" alt="green mountain view" />
+                    <figcaption class="caption-top caption-black">
+                        UK, 2005
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/USA.png" alt="flower field" />
+                    <figcaption class="caption-top caption-black">
+                        USA, 2021
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="images/Wyoming.png" alt="lake by the forest" />
+                    <figcaption class="caption-top caption-white">
+                        Wyoming, 2021
+                    </figcaption>
+                </figure>
+            </section>
+
+            <form>
+                <br />
+                <h2>Contact</h2>
+                <br />
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+
+                <label for="name">Name </label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value="Your full name"
+                />
+
+                <label for="email">Email</label>
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    value="Enter your email address"
+                />
+
+                <label for="message">Message </label>
+                <input
+                    type="text"
+                    id="message"
+                    name="message"
+                    value="What can I help you with?"
+                />
+
+                <button type="button" onclick="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <small>Copyright 2021 TK Photography</small>
+        </footer>
+    </body>
+</html>
